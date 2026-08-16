@@ -1,42 +1,694 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Nirbhay Singh — Home Loan, SBI Loan Assistance and Property Loan services in Rewa, Madhya Pradesh.">
-<title>NIRBHAY SINGH | Loan Services</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Nirbhay Singh - Home Loan, SBI Loan Assistance and Property Loan services in Rewa, Madhya Pradesh.">
+
+    <title>NIRBHAY SINGH | Loan Services</title>
+
+    <link rel="stylesheet"
+        href="style.css">
 </head>
+
 <body>
-<header class="nav"><a class="brand" href="#home">NIRBHAY <span>SINGH</span></a>
-<nav><a href="#services" data-en="Services" data-hi="सेवाएँ">Services</a><a href="#calculator" data-en="EMI Calculator" data-hi="EMI कैलकुलेटर">EMI Calculator</a><a href="#eligibility" data-en="Eligibility" data-hi="पात्रता">Eligibility</a><a href="#contact" data-en="Contact" data-hi="संपर्क">Contact</a></nav>
-<button id="langBtn">हिन्दी</button></header>
 
-<section id="home" class="hero"><div>
-<div class="eyebrow">● <span data-en="LOAN ASSISTANCE • REWA, M.P." data-hi="लोन सहायता • रीवा, म.प्र.">LOAN ASSISTANCE • REWA, M.P.</span></div>
-<h1 data-en="Your property goals deserve a smarter financial start." data-hi="आपके प्रॉपर्टी लक्ष्यों की शुरुआत एक बेहतर वित्तीय योजना से।">Your property goals deserve a smarter financial start.</h1>
-<p class="lead" data-en="Professional assistance for Home Loans, SBI Loan options and Property Loans — with clear communication from enquiry to application." data-hi="होम लोन, SBI लोन विकल्प और प्रॉपर्टी लोन के लिए पेशेवर सहायता — प्रारंभिक जानकारी से आवेदन तक स्पष्ट मार्गदर्शन।">Professional assistance for Home Loans, SBI Loan options and Property Loans — with clear communication from enquiry to application.</p>
-<div class="actions"><a class="btn dark" href="tel:+917722988226">📞 77229 88226</a><a class="btn green" href="https://wa.me/917722988226?text=Hello%20Nirbhay%20Singh%2C%20I%20want%20to%20know%20about%20a%20loan." target="_blank">💬 WhatsApp</a></div>
-<div class="trust">✓ Personal guidance　 ✓ Documentation support　 ✓ Rewa based</div></div>
-<div class="portrait"><img src="profile.jpg" alt="Nirbhay Singh"><div class="caption"><b>NIRBHAY SINGH</b><span data-en="Loan Services" data-hi="लोन सेवाएँ">Loan Services</span></div></div></section>
+<!-- ================= NAVIGATION ================= -->
 
-<section class="stats"><div><b>01</b><span data-en="Personal assistance" data-hi="व्यक्तिगत सहायता">Personal assistance</span></div><div><b>02</b><span data-en="Loan categories" data-hi="लोन श्रेणियाँ">Loan categories</span></div><div><b>03</b><span data-en="Simple process" data-hi="सरल प्रक्रिया">Simple process</span></div><div><b>24/7</b><span data-en="WhatsApp enquiry" data-hi="WhatsApp पूछताछ">WhatsApp enquiry</span></div></section>
+<header class="nav">
 
-<section id="services" class="section"><p class="eyebrow">SERVICES</p><h2 data-en="Financing options, explained clearly." data-hi="फाइनेंसिंग विकल्प, आसान भाषा में।">Financing options, explained clearly.</h2>
-<div class="cards"><article><strong>⌂</strong><h3>Home Loan</h3><p data-en="Assistance for eligible home purchase, construction and housing finance requirements." data-hi="पात्र ग्राहकों के लिए घर खरीदने, निर्माण और हाउसिंग फाइनेंस जरूरतों में सहायता।">Assistance for eligible home purchase, construction and housing finance requirements.</p><a href="#eligibility">Check requirement →</a></article>
-<article class="featured"><strong>SBI</strong><h3>SBI Loan Assistance</h3><p data-en="Understand suitable SBI loan options, documentation and application steps." data-hi="उपयुक्त SBI लोन विकल्प, दस्तावेज़ और आवेदन प्रक्रिया समझने में सहायता।">Understand suitable SBI loan options, documentation and application steps.</p><a href="#eligibility">Start enquiry →</a></article>
-<article><strong>▣</strong><h3>Property Loan</h3><p data-en="Explore property-backed financing possibilities according to your requirement and lender criteria." data-hi="आपकी आवश्यकता और ऋणदाता के मानदंडों के अनुसार प्रॉपर्टी आधारित फाइनेंसिंग विकल्पों की जानकारी।">Explore property-backed financing possibilities according to your requirement and lender criteria.</p><a href="#eligibility">Discuss your need →</a></article></div></section>
+    <a href="#home"
+        class="brand">
+        NIRBHAY <span>SINGH</span>
+    </a>
 
-<section id="calculator" class="section beige"><div><p class="eyebrow">FREE EMI CALCULATOR</p><h2 data-en="Get an approximate EMI in seconds." data-hi="कुछ सेकंड में अनुमानित EMI जानें।">Get an approximate EMI in seconds.</h2><p class="muted">Estimate only. Actual rate, fees, tenure and final EMI depend on the lender and approved terms.</p></div>
-<div class="box"><label>Loan amount (₹)<input id="amount" type="number" value="2500000" min="10000"></label><label>Interest rate (% p.a.)<input id="rate" type="number" value="8.5" min="0" step=".1"></label><label>Tenure (years)<input id="years" type="number" value="20" min="1" max="40"></label><button id="calc" class="btn dark">Calculate EMI</button><div class="result">Estimated monthly EMI<strong id="emi">₹21,695</strong><small id="summary"></small></div></div></section>
+    <nav>
 
-<section id="eligibility" class="section"><div><p class="eyebrow">QUICK ENQUIRY</p><h2 data-en="Tell us what you're looking for." data-hi="आपको किस तरह का लोन चाहिए, बताएं।">Tell us what you're looking for.</h2><p class="muted">Fill the form and WhatsApp will open with a ready-made enquiry message.</p></div>
-<form id="form" class="box"><label>Name<input id="name" required></label><label>Mobile number<input id="phone" required inputmode="tel"></label><label>Loan type<select id="type"><option>Home Loan</option><option>SBI Loan Assistance</option><option>Property Loan</option><option>Other</option></select></label><label>Approximate requirement (₹)<input id="need" type="number"></label><button class="btn green" type="submit">💬 Send enquiry on WhatsApp</button></form></section>
+        <a href="#services"
+            data-en="Services"
+            data-hi="सेवाएँ">
+            Services
+        </a>
 
-<section class="process"><div class="section"><p class="eyebrow">THE PROCESS</p><h2>Simple. Clear. Personal.</h2><div class="steps"><div><b>01</b><h3>Discuss</h3><p>Share your requirement.</p></div><div><b>02</b><h3>Understand</h3><p>Review basic eligibility and documents.</p></div><div><b>03</b><h3>Apply</h3><p>Prepare the application for the relevant lender.</p></div><div><b>04</b><h3>Track</h3><p>Stay informed through the process.</p></div></div></div></section>
+        <a href="#calculator"
+            data-en="EMI Calculator"
+            data-hi="EMI कैलकुलेटर">
+            EMI Calculator
+        </a>
 
-<section id="contact" class="contact"><div><p class="eyebrow">LET'S TALK</p><h2 data-en="Have a loan requirement?" data-hi="लोन की आवश्यकता है?">Have a loan requirement?</h2><p class="muted">Rewa, Madhya Pradesh</p></div><div class="actions"><a class="btn dark" href="tel:+917722988226">📞 77229 88226</a><a class="btn green" href="https://wa.me/917722988226?text=Hello%20Nirbhay%20Singh%2C%20I%20want%20to%20discuss%20a%20loan." target="_blank">💬 WhatsApp</a></div></section>
-<a class="float" href="https://wa.me/917722988226?text=Hello%20Nirbhay%20Singh%2C%20I%20want%20to%20know%20about%20a%20loan." target="_blank">💬</a>
-<footer><b>NIRBHAY SINGH</b><span>Independent loan assistance. Approval, rates and eligibility are subject to the respective lender.</span></footer>
-<script src="script.js"></script></body></html>
+        <a href="#eligibility"
+            data-en="Eligibility"
+            data-hi="पात्रता">
+            Eligibility
+        </a>
+
+        <a href="#contact"
+            data-en="Contact"
+            data-hi="संपर्क">
+            Contact
+        </a>
+
+    </nav>
+
+    <button id="langBtn">
+        हिन्दी
+    </button>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home"
+    class="hero">
+
+    <div>
+
+        <div class="eyebrow">
+            ● LOAN ASSISTANCE • REWA, M.P.
+        </div>
+
+        <h1
+            data-en="Your property goals deserve a smarter financial start."
+            data-hi="आपके प्रॉपर्टी लक्ष्यों की शुरुआत एक बेहतर वित्तीय योजना से।">
+
+            Your property goals deserve
+            a smarter financial start.
+
+        </h1>
+
+        <p class="lead"
+            data-en="Professional assistance for Home Loans, SBI Loan options and Property Loans — with clear communication from enquiry to application."
+            data-hi="होम लोन, SBI लोन विकल्प और प्रॉपर्टी लोन के लिए पेशेवर सहायता — प्रारंभिक जानकारी से आवेदन तक स्पष्ट मार्गदर्शन।">
+
+            Professional assistance for Home Loans,
+            SBI Loan options and Property Loans —
+            with clear communication from enquiry
+            to application.
+
+        </p>
+
+
+        <div class="actions">
+
+            <a class="btn dark"
+                href="tel:+917722988226">
+
+                📞 77229 88226
+
+            </a>
+
+
+            <a class="btn green"
+                href="https://wa.me/917722988226?text=Hello%20Nirbhay%20Singh%2C%20I%20want%20to%20know%20about%20a%20loan."
+                target="_blank">
+
+                💬 WhatsApp
+
+            </a>
+
+        </div>
+
+
+        <div class="trust">
+
+            ✓ Personal guidance
+            &nbsp;&nbsp;
+            ✓ Documentation support
+            &nbsp;&nbsp;
+            ✓ Rewa based
+
+        </div>
+
+    </div>
+
+
+    <!-- PROFILE PHOTO -->
+
+    <div class="portrait">
+
+        <img src="profile.jpg"
+            alt="Nirbhay Singh">
+
+        <div class="caption">
+
+            <b>
+                NIRBHAY SINGH
+            </b>
+
+            <span
+                data-en="Loan Services"
+                data-hi="लोन सेवाएँ">
+
+                Loan Services
+
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="stats">
+
+    <div>
+        <b>01</b>
+        <span
+            data-en="Personal assistance"
+            data-hi="व्यक्तिगत सहायता">
+            Personal assistance
+        </span>
+    </div>
+
+    <div>
+        <b>02</b>
+        <span
+            data-en="Loan categories"
+            data-hi="लोन श्रेणियाँ">
+            Loan categories
+        </span>
+    </div>
+
+    <div>
+        <b>03</b>
+        <span
+            data-en="Simple process"
+            data-hi="सरल प्रक्रिया">
+            Simple process
+        </span>
+    </div>
+
+    <div>
+        <b>24/7</b>
+        <span
+            data-en="WhatsApp enquiry"
+            data-hi="WhatsApp पूछताछ">
+            WhatsApp enquiry
+        </span>
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services"
+    class="section">
+
+    <p class="eyebrow">
+        SERVICES
+    </p>
+
+    <h2
+        data-en="Financing options, explained clearly."
+        data-hi="फाइनेंसिंग विकल्प, आसान भाषा में।">
+
+        Financing options,
+        explained clearly.
+
+    </h2>
+
+
+    <div class="cards">
+
+
+        <!-- HOME LOAN -->
+
+        <article>
+
+            <strong>
+                ⌂
+            </strong>
+
+            <h3>
+                Home Loan
+            </h3>
+
+            <p
+                data-en="Assistance for eligible home purchase, construction and housing finance requirements."
+                data-hi="पात्र ग्राहकों के लिए घर खरीदने, निर्माण और हाउसिंग फाइनेंस जरूरतों में सहायता।">
+
+                Assistance for eligible home purchase,
+                construction and housing finance
+                requirements.
+
+            </p>
+
+            <a href="#eligibility">
+                Check requirement →
+            </a>
+
+        </article>
+
+
+        <!-- SBI -->
+
+        <article class="featured">
+
+            <strong>
+                SBI
+            </strong>
+
+            <h3>
+                SBI Loan Assistance
+            </h3>
+
+            <p
+                data-en="Understand suitable SBI loan options, documentation and application steps."
+                data-hi="उपयुक्त SBI लोन विकल्प, दस्तावेज़ और आवेदन प्रक्रिया समझने में सहायता।">
+
+                Understand suitable SBI loan options,
+                documentation and application steps.
+
+            </p>
+
+            <a href="#eligibility">
+                Start enquiry →
+            </a>
+
+        </article>
+
+
+        <!-- PROPERTY LOAN -->
+
+        <article>
+
+            <strong>
+                ▣
+            </strong>
+
+            <h3>
+                Property Loan
+            </h3>
+
+            <p
+                data-en="Explore property-backed financing possibilities according to your requirement and lender criteria."
+                data-hi="आपकी आवश्यकता और ऋणदाता के मानदंडों के अनुसार प्रॉपर्टी आधारित फाइनेंसिंग विकल्पों की जानकारी।">
+
+                Explore property-backed financing
+                possibilities according to your
+                requirement and lender criteria.
+
+            </p>
+
+            <a href="#eligibility">
+                Discuss your need →
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EMI CALCULATOR ================= -->
+
+<section id="calculator"
+    class="section beige">
+
+    <div>
+
+        <p class="eyebrow">
+            FREE EMI CALCULATOR
+        </p>
+
+        <h2
+            data-en="Get an approximate EMI in seconds."
+            data-hi="कुछ सेकंड में अनुमानित EMI जानें।">
+
+            Get an approximate EMI
+            in seconds.
+
+        </h2>
+
+        <p class="muted">
+
+            Estimate only.
+            Actual rate, fees, tenure and final EMI
+            depend on the lender and approved terms.
+
+        </p>
+
+    </div>
+
+
+    <div class="box">
+
+        <label>
+
+            Loan amount (₹)
+
+            <input id="amount"
+                type="number"
+                value="2500000"
+                min="10000">
+
+        </label>
+
+
+        <label>
+
+            Interest rate (% p.a.)
+
+            <input id="rate"
+                type="number"
+                value="8.5"
+                min="0"
+                step="0.1">
+
+        </label>
+
+
+        <label>
+
+            Tenure (years)
+
+            <input id="years"
+                type="number"
+                value="20"
+                min="1"
+                max="40">
+
+        </label>
+
+
+        <button id="calc"
+            class="btn dark">
+
+            Calculate EMI
+
+        </button>
+
+
+        <div class="result">
+
+            Estimated monthly EMI
+
+            <strong id="emi">
+                ₹21,695
+            </strong>
+
+            <small id="summary">
+            </small>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ENQUIRY ================= -->
+
+<section id="eligibility"
+    class="section">
+
+    <div>
+
+        <p class="eyebrow">
+            QUICK ENQUIRY
+        </p>
+
+        <h2
+            data-en="Tell us what you're looking for."
+            data-hi="आपको किस तरह का लोन चाहिए, बताएं।">
+
+            Tell us what you're looking for.
+
+        </h2>
+
+        <p class="muted">
+
+            Fill the form and WhatsApp will open
+            with a ready-made enquiry message.
+
+        </p>
+
+    </div>
+
+
+    <form id="form"
+        class="box">
+
+        <label>
+
+            Name
+
+            <input id="name"
+                required>
+
+        </label>
+
+
+        <label>
+
+            Mobile number
+
+            <input id="phone"
+                required
+                inputmode="tel">
+
+        </label>
+
+
+        <label>
+
+            Loan type
+
+            <select id="type">
+
+                <option>
+                    Home Loan
+                </option>
+
+                <option>
+                    SBI Loan Assistance
+                </option>
+
+                <option>
+                    Property Loan
+                </option>
+
+                <option>
+                    Other
+                </option>
+
+            </select>
+
+        </label>
+
+
+        <label>
+
+            Approximate requirement (₹)
+
+            <input id="need"
+                type="number">
+
+        </label>
+
+
+        <button class="btn green"
+            type="submit">
+
+            💬 Send enquiry on WhatsApp
+
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= PROCESS ================= -->
+
+<section class="process">
+
+    <div class="section">
+
+        <p class="eyebrow">
+            THE PROCESS
+        </p>
+
+        <h2>
+            Simple. Clear. Personal.
+        </h2>
+
+
+        <div class="steps">
+
+
+            <div>
+
+                <b>
+                    01
+                </b>
+
+                <h3>
+                    Discuss
+                </h3>
+
+                <p>
+                    Share your requirement.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <b>
+                    02
+                </b>
+
+                <h3>
+                    Understand
+                </h3>
+
+                <p>
+                    Review basic eligibility
+                    and documents.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <b>
+                    03
+                </b>
+
+                <h3>
+                    Apply
+                </h3>
+
+                <p>
+                    Prepare the application
+                    for the relevant lender.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <b>
+                    04
+                </b>
+
+                <h3>
+                    Track
+                </h3>
+
+                <p>
+                    Stay informed through
+                    the process.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact"
+    class="contact">
+
+    <div>
+
+        <p class="eyebrow">
+            LET'S TALK
+        </p>
+
+        <h2
+            data-en="Have a loan requirement?"
+            data-hi="लोन की आवश्यकता है?">
+
+            Have a loan requirement?
+
+        </h2>
+
+        <p class="muted">
+
+            📍 Rewa, Madhya Pradesh
+
+        </p>
+
+    </div>
+
+
+    <div class="actions">
+
+        <a class="btn dark"
+            href="tel:+917722988226">
+
+            📞 77229 88226
+
+        </a>
+
+
+        <a class="btn green"
+            href="https://wa.me/917722988226?text=Hello%20Nirbhay%20Singh%2C%20I%20want%20to%20discuss%20a%20loan."
+            target="_blank">
+
+            💬 WhatsApp
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FLOATING WHATSAPP ================= -->
+
+<a class="float"
+    href="https://wa.me/917722988226?text=Hello%20Nirbhay%20Singh%2C%20I%20want%20to%20know%20about%20a%20loan."
+    target="_blank">
+
+    💬
+
+</a>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <b>
+        NIRBHAY SINGH
+    </b>
+
+    <span>
+
+        Independent loan assistance.
+        Approval, rates and eligibility are
+        subject to the respective lender.
+
+    </span>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+
+<script src="script.js"></script>
+
+</body>
+                          </html>
